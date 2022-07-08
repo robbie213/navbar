@@ -1,0 +1,418 @@
+{
+    "sourceFile": "src/components/navbar.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 100,
+            "patches": [
+                {
+                    "date": 1657231040886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1657231052668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\n \n const Navbar = (props) => {\n     return (\n-   \n+     <nav></nav>\n   ) \n };\n \n export default Navbar;\n"
+                },
+                {
+                    "date": 1657231060719,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\n \n const Navbar = (props) => {\n     return (\n-     <nav></nav>\n+     <nav className=\"nav\"></nav>\n   ) \n };\n \n export default Navbar;\n"
+                },
+                {
+                    "date": 1657231067168,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,11 @@\n import React from \"react\";\n \n const Navbar = (props) => {\n     return (\n-     <nav className=\"nav\"></nav>\n+      <nav className=\"nav\">\n+        \n+     </nav>\n   ) \n };\n \n export default Navbar;\n"
+                },
+                {
+                    "date": 1657231079945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n const Navbar = (props) => {\n     return (\n       <nav className=\"nav\">\n-        \n+        <a></a>\n      </nav>\n   ) \n };\n \n"
+                },
+                {
+                    "date": 1657231088595,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n const Navbar = (props) => {\n     return (\n       <nav className=\"nav\">\n-        <a></a>\n+        <a href=\"\"></a>\n      </nav>\n   ) \n };\n \n"
+                },
+                {
+                    "date": 1657231149816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n const Navbar = (props) => {\n     return (\n       <nav className=\"nav\">\n-        <a href=\"\"></a>\n+        <a href=\"\" className=\"brand\"></a>\n      </nav>\n   ) \n };\n \n"
+                },
+                {
+                    "date": 1657231157660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n const Navbar = (props) => {\n     return (\n       <nav className=\"nav\">\n-        <a href=\"\" className=\"brand\"></a>\n+        \n      </nav>\n   ) \n };\n \n"
+                },
+                {
+                    "date": 1657231186883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n const Navbar = (props) => {\n     return (\n       <nav className=\"nav\">\n-        \n+        <a></a>\n      </nav>\n   ) \n };\n \n"
+                },
+                {
+                    "date": 1657231217382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n const Navbar = (props) => {\n     return (\n       <nav className=\"nav\">\n-        <a></a>\n+        <a href=\"\"></a>\n      </nav>\n   ) \n };\n \n"
+                },
+                {
+                    "date": 1657231224619,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n const Navbar = (props) => {\n     return (\n       <nav className=\"nav\">\n-        <a href=\"\"></a>\n+        <a href=\"\" className=\"brand\"></a>\n      </nav>\n   ) \n };\n \n"
+                },
+                {
+                    "date": 1657231233320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n const Navbar = (props) => {\n     return (\n       <nav className=\"nav\">\n-        <a href=\"\" className=\"brand\"></a>\n+        <a href=\"#\" className=\"brand\"></a>\n      </nav>\n   ) \n };\n \n"
+                },
+                {
+                    "date": 1657231244570,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n const Navbar = (props) => {\n     return (\n       <nav className=\"nav\">\n-        <a href=\"#\" className=\"brand\"></a>\n+        <a href=\"#\" className=\"brand\">herdoy</a>\n      </nav>\n   ) \n };\n \n"
+                },
+                {
+                    "date": 1657231266325,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n const Navbar = (props) => {\n     return (\n       <nav className=\"nav\">\n         <a href=\"#\" className=\"brand\">herdoy</a>\n+        \n      </nav>\n   ) \n };\n \n"
+                },
+                {
+                    "date": 1657231272563,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n const Navbar = (props) => {\n     return (\n       <nav className=\"nav\">\n         <a href=\"#\" className=\"brand\">herdoy</a>\n-        \n+        <ul></ul>\n      </nav>\n   ) \n };\n \n"
+                },
+                {
+                    "date": 1657231309507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,11 @@\n const Navbar = (props) => {\n     return (\n       <nav className=\"nav\">\n         <a href=\"#\" className=\"brand\">herdoy</a>\n-        <ul></ul>\n+        <ul className=\"\">\n+\n+        </ul>\n      </nav>\n   ) \n };\n \n"
+                },
+                {
+                    "date": 1657231319714,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n const Navbar = (props) => {\n     return (\n       <nav className=\"nav\">\n         <a href=\"#\" className=\"brand\">herdoy</a>\n-        <ul className=\"\">\n+        <ul className=\"nav_menu\">\n \n         </ul>\n      </nav>\n   ) \n"
+                },
+                {
+                    "date": 1657231325339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n const Navbar = (props) => {\n     return (\n       <nav className=\"nav\">\n         <a href=\"#\" className=\"brand\">herdoy</a>\n-        <ul className=\"nav_menu\">\n+        <ul className=\"nav__menu\">\n \n         </ul>\n      </nav>\n   ) \n"
+                },
+                {
+                    "date": 1657231346608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     return (\n       <nav className=\"nav\">\n         <a href=\"#\" className=\"brand\">herdoy</a>\n         <ul className=\"nav__menu\">\n-\n+         \n         </ul>\n      </nav>\n   ) \n };\n"
+                },
+                {
+                    "date": 1657231354776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     return (\n       <nav className=\"nav\">\n         <a href=\"#\" className=\"brand\">herdoy</a>\n         <ul className=\"nav__menu\">\n-         \n+         <li></li>\n         </ul>\n      </nav>\n   ) \n };\n"
+                },
+                {
+                    "date": 1657231364107,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     return (\n       <nav className=\"nav\">\n         <a href=\"#\" className=\"brand\">herdoy</a>\n         <ul className=\"nav__menu\">\n-         <li></li>\n+         <li className=\"\"></li>\n         </ul>\n      </nav>\n   ) \n };\n"
+                },
+                {
+                    "date": 1657231370242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     return (\n       <nav className=\"nav\">\n         <a href=\"#\" className=\"brand\">herdoy</a>\n         <ul className=\"nav__menu\">\n-         <li className=\"\"></li>\n+         <li className=\"nav__item\"></li>\n         </ul>\n      </nav>\n   ) \n };\n"
+                },
+                {
+                    "date": 1657231378906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     return (\n       <nav className=\"nav\">\n         <a href=\"#\" className=\"brand\">herdoy</a>\n         <ul className=\"nav__menu\">\n-         <li className=\"nav__item\"></li>\n+         <li className=\"nav__item\">a.nav</li>\n         </ul>\n      </nav>\n   ) \n };\n"
+                },
+                {
+                    "date": 1657231386640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     return (\n       <nav className=\"nav\">\n         <a href=\"#\" className=\"brand\">herdoy</a>\n         <ul className=\"nav__menu\">\n-         <li className=\"nav__item\">a.nav</li>\n+         <li className=\"nav__item\">a.nav__link</li>\n         </ul>\n      </nav>\n   ) \n };\n"
+                },
+                {
+                    "date": 1657231405615,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     return (\n       <nav className=\"nav\">\n         <a href=\"#\" className=\"brand\">herdoy</a>\n         <ul className=\"nav__menu\">\n-         <li className=\"nav__item\">a.nav__link</li>\n+         <li className=\"nav__item\"></li>\n         </ul>\n      </nav>\n   ) \n };\n"
+                },
+                {
+                    "date": 1657231424895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     return (\n       <nav className=\"nav\">\n         <a href=\"#\" className=\"brand\">herdoy</a>\n         <ul className=\"nav__menu\">\n-         <li className=\"nav__item\"></li>\n+         <li className=\"nav__item\"><a></a></li>\n         </ul>\n      </nav>\n   ) \n };\n"
+                },
+                {
+                    "date": 1657231442700,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     return (\n       <nav className=\"nav\">\n         <a href=\"#\" className=\"brand\">herdoy</a>\n         <ul className=\"nav__menu\">\n-         <li className=\"nav__item\"><a></a></li>\n+         <li className=\"nav__item\"><a href=\"#\"></a></li>\n         </ul>\n      </nav>\n   ) \n };\n"
+                },
+                {
+                    "date": 1657231449143,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     return (\n       <nav className=\"nav\">\n         <a href=\"#\" className=\"brand\">herdoy</a>\n         <ul className=\"nav__menu\">\n-         <li className=\"nav__item\"><a href=\"#\"></a></li>\n+         <li className=\"nav__item\"><a href=\"#\" className=\"\"></a></li>\n         </ul>\n      </nav>\n   ) \n };\n"
+                },
+                {
+                    "date": 1657231456379,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     return (\n       <nav className=\"nav\">\n         <a href=\"#\" className=\"brand\">herdoy</a>\n         <ul className=\"nav__menu\">\n-         <li className=\"nav__item\"><a href=\"#\" className=\"\"></a></li>\n+         <li className=\"nav__item\"><a href=\"#\" className=\"nav__link\"></a></li>\n         </ul>\n      </nav>\n   ) \n };\n"
+                },
+                {
+                    "date": 1657231483192,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,25 @@\n import React from \"react\";\n \n const Navbar = (props) => {\n     return (\n-      <nav className=\"nav\">\n-        <a href=\"#\" className=\"brand\">herdoy</a>\n-        <ul className=\"nav__menu\">\n-         <li className=\"nav__item\"><a href=\"#\" className=\"nav__link\"></a></li>\n+      <nav className='nav'>\n+        <a href='#' className='brand'>\n+          herdoy\n+        </a>\n+        <ul className='nav__menu'>\n+          <li className='nav__item'>\n+            <a href='#' className='nav__link'>\n+              Home\n+            </a>\n+          </li>\n+          <li className='nav__item'>\n+            <a href='#' className='nav__link'>\n+              Home\n+            </a>\n+          </li>\n         </ul>\n-     </nav>\n-  ) \n+      </nav>\n+    ); \n };\n \n export default Navbar;\n"
+                },
+                {
+                    "date": 1657231499604,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n             </a>\n           </li>\n           <li className='nav__item'>\n             <a href='#' className='nav__link'>\n-              Home\n+              About\n             </a>\n           </li>\n         </ul>\n       </nav>\n"
+                },
+                {
+                    "date": 1657231545287,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,13 @@\n             <a href='#' className='nav__link'>\n               About\n             </a>\n           </li>\n+          <li className='nav__item'>\n+            <a href='#' className='nav__link'>\n+              Home\n+            </a>\n+          </li>\n         </ul>\n       </nav>\n     ); \n };\n"
+                },
+                {
+                    "date": 1657231561483,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             </a>\n           </li>\n           <li className='nav__item'>\n             <a href='#' className='nav__link'>\n-              Home\n+              Skills\n             </a>\n           </li>\n         </ul>\n       </nav>\n"
+                },
+                {
+                    "date": 1657231593296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,13 @@\n             <a href='#' className='nav__link'>\n               Skills\n             </a>\n           </li>\n+          <li className='nav__item'>\n+            <a href='#' className='nav__link'>\n+              \n+            </a>\n+          </li>\n         </ul>\n       </nav>\n     ); \n };\n"
+                },
+                {
+                    "date": 1657231600959,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n             </a>\n           </li>\n           <li className='nav__item'>\n             <a href='#' className='nav__link'>\n-              \n+              Portfolio\n             </a>\n           </li>\n         </ul>\n       </nav>\n"
+                },
+                {
+                    "date": 1657231625549,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,16 +18,21 @@\n             </a>\n           </li>\n           <li className='nav__item'>\n             <a href='#' className='nav__link'>\n-              Skills\n+              Home\n             </a>\n           </li>\n           <li className='nav__item'>\n             <a href='#' className='nav__link'>\n-              Portfolio\n+              Home\n             </a>\n           </li>\n+          <li className='nav__item'>\n+            <a href='#' className='nav__link'>\n+              Home\n+            </a>\n+          </li>\n         </ul>\n       </nav>\n     ); \n };\n"
+                },
+                {
+                    "date": 1657231644478,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             </a>\n           </li>\n           <li className='nav__item'>\n             <a href='#' className='nav__link'>\n-              Home\n+              Skills\n             </a>\n           </li>\n           <li className='nav__item'>\n             <a href='#' className='nav__link'>\n"
+                },
+                {
+                    "date": 1657231649966,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n             </a>\n           </li>\n           <li className='nav__item'>\n             <a href='#' className='nav__link'>\n-              Home\n+              Portfolio\n             </a>\n           </li>\n           <li className='nav__item'>\n             <a href='#' className='nav__link'>\n"
+                },
+                {
+                    "date": 1657231672093,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n             </a>\n           </li>\n           <li className='nav__item'>\n             <a href='#' className='nav__link'>\n-              Home\n+              Contact\n             </a>\n           </li>\n         </ul>\n       </nav>\n"
+                },
+                {
+                    "date": 1657231697440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,8 +32,9 @@\n               Contact\n             </a>\n           </li>\n         </ul>\n+        \n       </nav>\n     ); \n };\n \n"
+                },
+                {
+                    "date": 1657231704353,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n               Contact\n             </a>\n           </li>\n         </ul>\n-        \n+        <div></div>\n       </nav>\n     ); \n };\n \n"
+                },
+                {
+                    "date": 1657231711501,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n               Contact\n             </a>\n           </li>\n         </ul>\n-        <div></div>\n+        <div className=\"\"></div>\n       </nav>\n     ); \n };\n \n"
+                },
+                {
+                    "date": 1657231719050,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n               Contact\n             </a>\n           </li>\n         </ul>\n-        <div className=\"\"></div>\n+        <div className=\"nav__toggler\"></div>\n       </nav>\n     ); \n };\n \n"
+                },
+                {
+                    "date": 1657231725424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,11 @@\n               Contact\n             </a>\n           </li>\n         </ul>\n-        <div className=\"nav__toggler\"></div>\n+        <div className=\"nav__toggler\">\n+          \n+        </div>\n       </nav>\n     ); \n };\n \n"
+                },
+                {
+                    "date": 1657231734545,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n             </a>\n           </li>\n         </ul>\n         <div className=\"nav__toggler\">\n-          \n+          <div></div>\n         </div>\n       </nav>\n     ); \n };\n"
+                },
+                {
+                    "date": 1657231744207,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n             </a>\n           </li>\n         </ul>\n         <div className=\"nav__toggler\">\n-          <div></div>\n+          <div className=\"line1\"></div>\n         </div>\n       </nav>\n     ); \n };\n"
+                },
+                {
+                    "date": 1657231759764,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,10 +32,11 @@\n               Contact\n             </a>\n           </li>\n         </ul>\n-        <div className=\"nav__toggler\">\n-          <div className=\"line1\"></div>\n+        <div className='nav__toggler'>\n+          <div className='line1'></div>\n+          <div className='line1'></div>\n         </div>\n       </nav>\n     ); \n };\n"
+                },
+                {
+                    "date": 1657231775268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,10 @@\n           </li>\n         </ul>\n         <div className='nav__toggler'>\n           <div className='line1'></div>\n-          <div className='line1'></div>\n+          <div className='line2'></div>\n+          <div className='line3'></div>\n         </div>\n       </nav>\n     ); \n };\n"
+                },
+                {
+                    "date": 1657231792202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from \"react\";\n \n-const Navbar = (props) => {\n+const Navbar = () => {\n     return (\n       <nav className='nav'>\n         <a href='#' className='brand'>\n           herdoy\n"
+                },
+                {
+                    "date": 1657232167304,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React from \"react\";\n-\n+import '../navbar.css'\n const Navbar = () => {\n     return (\n       <nav className='nav'>\n         <a href='#' className='brand'>\n"
+                },
+                {
+                    "date": 1657232558207,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import '../navbar.css'\n const Navbar = () => {\n     return (\n       <nav className='nav'>\n-        <a href='#' className='brand'>\n+        <a href='#' className=''>\n           herdoy\n         </a>\n         <ul className='nav__menu'>\n           <li className='nav__item'>\n"
+                },
+                {
+                    "date": 1657232566752,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import '../navbar.css'\n const Navbar = () => {\n     return (\n       <nav className='nav'>\n-        <a href='#' className=''>\n+        <a href='#' className='nav__brand'>\n           herdoy\n         </a>\n         <ul className='nav__menu'>\n           <li className='nav__item'>\n"
+                },
+                {
+                    "date": 1657242196109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import React from \"react\";\n+import React, from \"react\";\n import '../navbar.css'\n const Navbar = () => {\n     return (\n       <nav className='nav'>\n"
+                },
+                {
+                    "date": 1657242216400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import React, from \"react\";\n+import React, {useState} from \"react\";\n import '../navbar.css'\n const Navbar = () => {\n     return (\n       <nav className='nav'>\n"
+                },
+                {
+                    "date": 1657242366800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n import React, {useState} from \"react\";\n import '../navbar.css'\n const Navbar = () => {\n+  const [active, setActive] = useState()\n     return (\n       <nav className='nav'>\n         <a href='#' className='nav__brand'>\n           herdoy\n"
+                },
+                {
+                    "date": 1657242441633,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React, {useState} from \"react\";\n import '../navbar.css'\n const Navbar = () => {\n-  const [active, setActive] = useState()\n+  const [active, setActive] = useState('')\n     return (\n       <nav className='nav'>\n         <a href='#' className='nav__brand'>\n           herdoy\n"
+                },
+                {
+                    "date": 1657242448643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React, {useState} from \"react\";\n import '../navbar.css'\n const Navbar = () => {\n-  const [active, setActive] = useState('')\n+  const [active, setActive] = useState('nav__menu')\n     return (\n       <nav className='nav'>\n         <a href='#' className='nav__brand'>\n           herdoy\n"
+                },
+                {
+                    "date": 1657242516422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n       <nav className='nav'>\n         <a href='#' className='nav__brand'>\n           herdoy\n         </a>\n-        <ul className='nav__menu'>\n+        <ul className='active'>\n           <li className='nav__item'>\n             <a href='#' className='nav__link'>\n               Home\n             </a>\n"
+                },
+                {
+                    "date": 1657242528178,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n       <nav className='nav'>\n         <a href='#' className='nav__brand'>\n           herdoy\n         </a>\n-        <ul className='active'>\n+        <ul className={active}>\n           <li className='nav__item'>\n             <a href='#' className='nav__link'>\n               Home\n             </a>\n"
+                },
+                {
+                    "date": 1657242616087,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n import React, {useState} from \"react\";\n import '../navbar.css'\n const Navbar = () => {\n   const [active, setActive] = useState('nav__menu')\n+  \n     return (\n       <nav className='nav'>\n         <a href='#' className='nav__brand'>\n           herdoy\n"
+                },
+                {
+                    "date": 1657242622052,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React, {useState} from \"react\";\n import '../navbar.css'\n const Navbar = () => {\n   const [active, setActive] = useState('nav__menu')\n-  \n+  const navToggle\n     return (\n       <nav className='nav'>\n         <a href='#' className='nav__brand'>\n           herdoy\n"
+                },
+                {
+                    "date": 1657242627932,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React, {useState} from \"react\";\n import '../navbar.css'\n const Navbar = () => {\n   const [active, setActive] = useState('nav__menu')\n-  const navToggle\n+  const navToggle = ()\n     return (\n       <nav className='nav'>\n         <a href='#' className='nav__brand'>\n           herdoy\n"
+                },
+                {
+                    "date": 1657242633835,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React, {useState} from \"react\";\n import '../navbar.css'\n const Navbar = () => {\n   const [active, setActive] = useState('nav__menu')\n-  const navToggle = ()\n+  const navToggle = () => {}\n     return (\n       <nav className='nav'>\n         <a href='#' className='nav__brand'>\n           herdoy\n"
+                },
+                {
+                    "date": 1657242644082,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,11 @@\n import React, {useState} from \"react\";\n import '../navbar.css'\n const Navbar = () => {\n   const [active, setActive] = useState('nav__menu')\n-  const navToggle = () => {}\n+  const navToggle = () => {\n+    active\n+  }\n     return (\n       <nav className='nav'>\n         <a href='#' className='nav__brand'>\n           herdoy\n"
+                },
+                {
+                    "date": 1657242658960,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import '../navbar.css'\n const Navbar = () => {\n   const [active, setActive] = useState('nav__menu')\n   const navToggle = () => {\n-    active\n+    active === \n   }\n     return (\n       <nav className='nav'>\n         <a href='#' className='nav__brand'>\n"
+                },
+                {
+                    "date": 1657242666109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import '../navbar.css'\n const Navbar = () => {\n   const [active, setActive] = useState('nav__menu')\n   const navToggle = () => {\n-    active === \n+    active === 'nav__menu'\n   }\n     return (\n       <nav className='nav'>\n         <a href='#' className='nav__brand'>\n"
+                },
+                {
+                    "date": 1657242689243,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import '../navbar.css'\n const Navbar = () => {\n   const [active, setActive] = useState('nav__menu')\n   const navToggle = () => {\n-    active === 'nav__menu'\n+    active === 'nav__menu' ?\n   }\n     return (\n       <nav className='nav'>\n         <a href='#' className='nav__brand'>\n"
+                },
+                {
+                    "date": 1657242696357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import '../navbar.css'\n const Navbar = () => {\n   const [active, setActive] = useState('nav__menu')\n   const navToggle = () => {\n-    active === 'nav__menu' ?\n+    active === 'nav__menu' ? setActive\n   }\n     return (\n       <nav className='nav'>\n         <a href='#' className='nav__brand'>\n"
+                },
+                {
+                    "date": 1657242711724,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import '../navbar.css'\n const Navbar = () => {\n   const [active, setActive] = useState('nav__menu')\n   const navToggle = () => {\n-    active === 'nav__menu' ? setActive\n+    active === 'nav__menu' ? setActive('nav__menu')\n   }\n     return (\n       <nav className='nav'>\n         <a href='#' className='nav__brand'>\n"
+                },
+                {
+                    "date": 1657242874089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n import React, {useState} from \"react\";\n import '../navbar.css'\n const Navbar = () => {\n   const [active, setActive] = useState('nav__menu')\n+  \n   const navToggle = () => {\n     active === 'nav__menu' ? setActive('nav__menu')\n   }\n     return (\n"
+                },
+                {
+                    "date": 1657243021863,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n import React, {useState} from \"react\";\n import '../navbar.css'\n const Navbar = () => {\n   const [active, setActive] = useState('nav__menu')\n-  \n+\n   const navToggle = () => {\n-    active === 'nav__menu' ? setActive('nav__menu')\n+    active === 'nav__menu' ? setActive('nav__menu nav__men')\n   }\n     return (\n       <nav className='nav'>\n         <a href='#' className='nav__brand'>\n"
+                },
+                {
+                    "date": 1657243037329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n import React, {useState} from \"react\";\n import '../navbar.css'\n const Navbar = () => {\n   const [active, setActive] = useState('nav__menu')\n-\n+  \n   const navToggle = () => {\n-    active === 'nav__menu' ? setActive('nav__menu nav__men')\n+    active === 'nav__menu' ? setActive('nav__menu nav__active')\n   }\n     return (\n       <nav className='nav'>\n         <a href='#' className='nav__brand'>\n"
+                },
+                {
+                    "date": 1657243050542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n const Navbar = () => {\n   const [active, setActive] = useState('nav__menu')\n   \n   const navToggle = () => {\n-    active === 'nav__menu' ? setActive('nav__menu nav__active')\n+    active === 'nav__menu' ? setActive('nav__menu nav__active') :\n   }\n     return (\n       <nav className='nav'>\n         <a href='#' className='nav__brand'>\n"
+                },
+                {
+                    "date": 1657243060224,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n const Navbar = () => {\n   const [active, setActive] = useState('nav__menu')\n   \n   const navToggle = () => {\n-    active === 'nav__menu' ? setActive('nav__menu nav__active') :\n+    active === 'nav__menu' ? setActive('nav__menu nav__active') : \n   }\n     return (\n       <nav className='nav'>\n         <a href='#' className='nav__brand'>\n"
+                },
+                {
+                    "date": 1657243065326,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n const Navbar = () => {\n   const [active, setActive] = useState('nav__menu')\n   \n   const navToggle = () => {\n-    active === 'nav__menu' ? setActive('nav__menu nav__active') : \n+    active === 'nav__menu' ? setActive('nav__menu nav__active') : setActive\n   }\n     return (\n       <nav className='nav'>\n         <a href='#' className='nav__brand'>\n"
+                },
+                {
+                    "date": 1657243071402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n const Navbar = () => {\n   const [active, setActive] = useState('nav__menu')\n   \n   const navToggle = () => {\n-    active === 'nav__menu' ? setActive('nav__menu nav__active') : setActive\n+    active === 'nav__menu' ? setActive('nav__menu nav__active') : setActive('')\n   }\n     return (\n       <nav className='nav'>\n         <a href='#' className='nav__brand'>\n"
+                },
+                {
+                    "date": 1657243080843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n const Navbar = () => {\n   const [active, setActive] = useState('nav__menu')\n   \n   const navToggle = () => {\n-    active === 'nav__menu' ? setActive('nav__menu nav__active') : setActive('')\n+    active === 'nav__menu' ? setActive('nav__menu nav__active') : setActive('nav__menu')\n   }\n     return (\n       <nav className='nav'>\n         <a href='#' className='nav__brand'>\n"
+                },
+                {
+                    "date": 1657243088661,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,50 +1,52 @@\n-import React, {useState} from \"react\";\n-import '../navbar.css'\n+import React, { useState } from \"react\";\n+import \"../navbar.css\";\n const Navbar = () => {\n-  const [active, setActive] = useState('nav__menu')\n-  \n+  const [active, setActive] = useState(\"nav__menu\");\n+\n   const navToggle = () => {\n-    active === 'nav__menu' ? setActive('nav__menu nav__active') : setActive('nav__menu')\n-  }\n-    return (\n-      <nav className='nav'>\n-        <a href='#' className='nav__brand'>\n-          herdoy\n-        </a>\n-        <ul className={active}>\n-          <li className='nav__item'>\n-            <a href='#' className='nav__link'>\n-              Home\n-            </a>\n-          </li>\n-          <li className='nav__item'>\n-            <a href='#' className='nav__link'>\n-              About\n-            </a>\n-          </li>\n-          <li className='nav__item'>\n-            <a href='#' className='nav__link'>\n-              Skills\n-            </a>\n-          </li>\n-          <li className='nav__item'>\n-            <a href='#' className='nav__link'>\n-              Portfolio\n-            </a>\n-          </li>\n-          <li className='nav__item'>\n-            <a href='#' className='nav__link'>\n-              Contact\n-            </a>\n-          </li>\n-        </ul>\n-        <div className='nav__toggler'>\n-          <div className='line1'></div>\n-          <div className='line2'></div>\n-          <div className='line3'></div>\n-        </div>\n-      </nav>\n-    ); \n+    active === \"nav__menu\"\n+      ? setActive(\"nav__menu nav__active\")\n+      : setActive(\"nav__menu\");\n+  };\n+  return (\n+    <nav className='nav'>\n+      <a href='#' className='nav__brand'>\n+        herdoy\n+      </a>\n+      <ul className={active}>\n+        <li className='nav__item'>\n+          <a href='#' className='nav__link'>\n+            Home\n+          </a>\n+        </li>\n+        <li className='nav__item'>\n+          <a href='#' className='nav__link'>\n+            About\n+          </a>\n+        </li>\n+        <li className='nav__item'>\n+          <a href='#' className='nav__link'>\n+            Skills\n+          </a>\n+        </li>\n+        <li className='nav__item'>\n+          <a href='#' className='nav__link'>\n+            Portfolio\n+          </a>\n+        </li>\n+        <li className='nav__item'>\n+          <a href='#' className='nav__link'>\n+            Contact\n+          </a>\n+        </li>\n+      </ul>\n+      <div className='nav__toggler'>\n+        <div className='line1'></div>\n+        <div className='line2'></div>\n+        <div className='line3'></div>\n+      </div>\n+    </nav>\n+  );\n };\n \n export default Navbar;\n"
+                },
+                {
+                    "date": 1657243175981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n             Contact\n           </a>\n         </li>\n       </ul>\n-      <div className='nav__toggler'>\n+      <div onClick={} className='nav__toggler'>\n         <div className='line1'></div>\n         <div className='line2'></div>\n         <div className='line3'></div>\n       </div>\n"
+                },
+                {
+                    "date": 1657243586891,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,10 @@\n import \"../navbar.css\";\n const Navbar = () => {\n   const [active, setActive] = useState(\"nav__menu\");\n \n+  const \n+\n   const navToggle = () => {\n     active === \"nav__menu\"\n       ? setActive(\"nav__menu nav__active\")\n       : setActive(\"nav__menu\");\n@@ -39,9 +41,9 @@\n             Contact\n           </a>\n         </li>\n       </ul>\n-      <div onClick={} className='nav__toggler'>\n+      <div onClick={navToggle} className='nav__toggler'>\n         <div className='line1'></div>\n         <div className='line2'></div>\n         <div className='line3'></div>\n       </div>\n"
+                },
+                {
+                    "date": 1657243594672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import \"../navbar.css\";\n const Navbar = () => {\n   const [active, setActive] = useState(\"nav__menu\");\n \n-  const \n+  const [active, set]\n \n   const navToggle = () => {\n     active === \"nav__menu\"\n       ? setActive(\"nav__menu nav__active\")\n"
+                },
+                {
+                    "date": 1657243602404,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import \"../navbar.css\";\n const Navbar = () => {\n   const [active, setActive] = useState(\"nav__menu\");\n \n-  const [active, set]\n+  const []\n \n   const navToggle = () => {\n     active === \"nav__menu\"\n       ? setActive(\"nav__menu nav__active\")\n"
+                },
+                {
+                    "date": 1657243608920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import \"../navbar.css\";\n const Navbar = () => {\n   const [active, setActive] = useState(\"nav__menu\");\n \n-  const []\n+  const [toggleIcon, ]\n \n   const navToggle = () => {\n     active === \"nav__menu\"\n       ? setActive(\"nav__menu nav__active\")\n"
+                },
+                {
+                    "date": 1657243631519,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import \"../navbar.css\";\n const Navbar = () => {\n   const [active, setActive] = useState(\"nav__menu\");\n \n-  const [toggleIcon, ]\n+  const [toggleIcon, setToggleIcon] =\n \n   const navToggle = () => {\n     active === \"nav__menu\"\n       ? setActive(\"nav__menu nav__active\")\n"
+                },
+                {
+                    "date": 1657243639161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import \"../navbar.css\";\n const Navbar = () => {\n   const [active, setActive] = useState(\"nav__menu\");\n \n-  const [toggleIcon, setToggleIcon] =\n+  const [toggleIcon, setToggleIcon] =useState()\n \n   const navToggle = () => {\n     active === \"nav__menu\"\n       ? setActive(\"nav__menu nav__active\")\n"
+                },
+                {
+                    "date": 1657243791538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import \"../navbar.css\";\n const Navbar = () => {\n   const [active, setActive] = useState(\"nav__menu\");\n \n-  const [toggleIcon, setToggleIcon] =useState()\n+  const [toggleIcon, setToggleIcon] =useState('nav__')\n \n   const navToggle = () => {\n     active === \"nav__menu\"\n       ? setActive(\"nav__menu nav__active\")\n"
+                },
+                {
+                    "date": 1657243798203,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import \"../navbar.css\";\n const Navbar = () => {\n   const [active, setActive] = useState(\"nav__menu\");\n \n-  const [toggleIcon, setToggleIcon] =useState('nav__')\n+  const [toggleIcon, setToggleIcon] =useState('nav__toggler')\n \n   const navToggle = () => {\n     active === \"nav__menu\"\n       ? setActive(\"nav__menu nav__active\")\n"
+                },
+                {
+                    "date": 1657243830265,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n             Contact\n           </a>\n         </li>\n       </ul>\n-      <div onClick={navToggle} className='nav__toggler'>\n+      <div onClick={navToggle} className={}>\n         <div className='line1'></div>\n         <div className='line2'></div>\n         <div className='line3'></div>\n       </div>\n"
+                },
+                {
+                    "date": 1657243835567,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n             Contact\n           </a>\n         </li>\n       </ul>\n-      <div onClick={navToggle} className={}>\n+      <div onClick={navToggle} className={toggleIcon}>\n         <div className='line1'></div>\n         <div className='line2'></div>\n         <div className='line3'></div>\n       </div>\n"
+                },
+                {
+                    "date": 1657243880091,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,10 @@\n   const navToggle = () => {\n     active === \"nav__menu\"\n       ? setActive(\"nav__menu nav__active\")\n       : setActive(\"nav__menu\");\n+    \n+    \n   };\n   return (\n     <nav className='nav'>\n       <a href='#' className='nav__brand'>\n"
+                },
+                {
+                    "date": 1657243889533,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     active === \"nav__menu\"\n       ? setActive(\"nav__menu nav__active\")\n       : setActive(\"nav__menu\");\n     \n-    \n+    toggleIcon === \n   };\n   return (\n     <nav className='nav'>\n       <a href='#' className='nav__brand'>\n"
+                },
+                {
+                    "date": 1657243899989,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     active === \"nav__menu\"\n       ? setActive(\"nav__menu nav__active\")\n       : setActive(\"nav__menu\");\n     \n-    toggleIcon === \n+    toggleIcon === 'nav__toggler'\n   };\n   return (\n     <nav className='nav'>\n       <a href='#' className='nav__brand'>\n"
+                },
+                {
+                    "date": 1657243920242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n       ? setActive(\"nav__menu nav__active\")\n       : setActive(\"nav__menu\");\n     \n     toggleIcon === 'nav__toggler'\n+    ?\n   };\n   return (\n     <nav className='nav'>\n       <a href='#' className='nav__brand'>\n"
+                },
+                {
+                    "date": 1657243932242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n       ? setActive(\"nav__menu nav__active\")\n       : setActive(\"nav__menu\");\n     \n     toggleIcon === 'nav__toggler'\n-    ?\n+    ? setToggleIcon\n   };\n   return (\n     <nav className='nav'>\n       <a href='#' className='nav__brand'>\n"
+                },
+                {
+                    "date": 1657243947554,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n       ? setActive(\"nav__menu nav__active\")\n       : setActive(\"nav__menu\");\n     \n     toggleIcon === 'nav__toggler'\n-    ? setToggleIcon\n+    ? setToggleIcon\"nav\"\n   };\n   return (\n     <nav className='nav'>\n       <a href='#' className='nav__brand'>\n"
+                },
+                {
+                    "date": 1657243962578,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n       ? setActive(\"nav__menu nav__active\")\n       : setActive(\"nav__menu\");\n     \n     toggleIcon === 'nav__toggler'\n-    ? setToggleIcon\"nav\"\n+    ? setToggleIcon\"nav__toggler\"\n   };\n   return (\n     <nav className='nav'>\n       <a href='#' className='nav__brand'>\n"
+                },
+                {
+                    "date": 1657244006047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n       ? setActive(\"nav__menu nav__active\")\n       : setActive(\"nav__menu\");\n     \n     toggleIcon === 'nav__toggler'\n-    ? setToggleIcon\"nav__toggler\"\n+    ? setToggleIcon(\"nav__toggler toggle\")\n   };\n   return (\n     <nav className='nav'>\n       <a href='#' className='nav__brand'>\n"
+                },
+                {
+                    "date": 1657244018900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,10 @@\n       ? setActive(\"nav__menu nav__active\")\n       : setActive(\"nav__menu\");\n     \n     toggleIcon === 'nav__toggler'\n-    ? setToggleIcon(\"nav__toggler toggle\")\n+      ? setToggleIcon(\"nav__toggler toggle\")\n+      :\n   };\n   return (\n     <nav className='nav'>\n       <a href='#' className='nav__brand'>\n"
+                },
+                {
+                    "date": 1657244026550,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n       : setActive(\"nav__menu\");\n     \n     toggleIcon === 'nav__toggler'\n       ? setToggleIcon(\"nav__toggler toggle\")\n-      :\n+      : setToggleIcon\n   };\n   return (\n     <nav className='nav'>\n       <a href='#' className='nav__brand'>\n"
+                },
+                {
+                    "date": 1657244037657,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n       : setActive(\"nav__menu\");\n     \n     toggleIcon === 'nav__toggler'\n       ? setToggleIcon(\"nav__toggler toggle\")\n-      : setToggleIcon\n+      : setToggleIcon()\n   };\n   return (\n     <nav className='nav'>\n       <a href='#' className='nav__brand'>\n"
+                },
+                {
+                    "date": 1657244047809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n       : setActive(\"nav__menu\");\n     \n     toggleIcon === 'nav__toggler'\n       ? setToggleIcon(\"nav__toggler toggle\")\n-      : setToggleIcon()\n+      : setToggleIcon('nav__toggler')\n   };\n   return (\n     <nav className='nav'>\n       <a href='#' className='nav__brand'>\n"
+                }
+            ],
+            "date": 1657231040886,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\n\nconst Navbar = (props) => {\n    return (\n   \n  ) \n};\n\nexport default Navbar;\n"
+        }
+    ]
+}

@@ -1,0 +1,486 @@
+{
+    "sourceFile": "src/navbar.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 117,
+            "patches": [
+                {
+                    "date": 1657231911906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1657231919958,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-*,\n\\ No newline at end of file\n+*,\n+*::\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657231926703,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n *,\n-*::\n\\ No newline at end of file\n+*::after,\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657231936508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,3 @@\n *,\n-*::after,\n\\ No newline at end of file\n+*::after,\n+*::before,\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657231943878,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n *,\n *::after,\n-*::before,\n\\ No newline at end of file\n+*::before {\n+    margin: ;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657231995888,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n *,\n *::after,\n *::before {\n-    margin: ;\n+    margin: 0;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232002596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n *,\n *::after,\n *::before {\n     margin: 0;\n+    box-sizing: ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232016040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n *,\n *::after,\n *::before {\n     margin: 0;\n-    box-sizing: ;\n-}\n\\ No newline at end of file\n+    box-sizing: border-box;\n+}\n+html\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232026106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,7 @@\n *::before {\n     margin: 0;\n     box-sizing: border-box;\n }\n-html\n\\ No newline at end of file\n+html{\n+    font-size: ;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232034393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n     margin: 0;\n     box-sizing: border-box;\n }\n html{\n-    font-size: ;\n+    font-size: 62.5%;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232046503,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,6 @@\n     box-sizing: border-box;\n }\n html{\n     font-size: 62.5%;\n-}\n\\ No newline at end of file\n+}\n+body\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232056338,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,7 @@\n }\n html{\n     font-size: 62.5%;\n }\n-body\n\\ No newline at end of file\n+body{\n+    font-size: ;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232066376,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,6 @@\n html{\n     font-size: 62.5%;\n }\n body{\n-    font-size: ;\n+    font-size: 1.6;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232083586,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,7 @@\n html{\n     font-size: 62.5%;\n }\n body{\n-    font-size: 1.6;\n-}\n\\ No newline at end of file\n+    font-size: 1.6rem;\n+}\n+li{}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232089810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,5 +9,7 @@\n }\n body{\n     font-size: 1.6rem;\n }\n-li{}\n\\ No newline at end of file\n+li{\n+    list\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232097330,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,6 +10,6 @@\n body{\n     font-size: 1.6rem;\n }\n li{\n-    list\n+    list-style: none;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232105755,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,5 +11,5 @@\n     font-size: 1.6rem;\n }\n li{\n     list-style: none;\n-}\n\\ No newline at end of file\n+}\n"
+                },
+                {
+                    "date": 1657232118217,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,4 +12,7 @@\n }\n li{\n     list-style: none;\n }\n+a{\n+    text-decoration: ;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232132339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,6 +13,7 @@\n li{\n     list-style: none;\n }\n a{\n-    text-decoration: ;\n+    text-decoration: none;\n+    color: #000;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232138554,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,6 +14,6 @@\n     list-style: none;\n }\n a{\n     text-decoration: none;\n-    color: #000;\n+    color: darkgrey;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232202662,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,5 +15,7 @@\n }\n a{\n     text-decoration: none;\n     color: darkgrey;\n-}\n\\ No newline at end of file\n+}\n+\n+.nav{}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232212339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,5 +17,7 @@\n     text-decoration: none;\n     color: darkgrey;\n }\n \n-.nav{}\n\\ No newline at end of file\n+.nav{\n+    display: ;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232222729,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,6 +18,7 @@\n     color: darkgrey;\n }\n \n .nav{\n-    display: ;\n+    display: flex;\n+    align-items: ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232231787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,6 +19,7 @@\n }\n \n .nav{\n     display: flex;\n-    align-items: ;\n+    align-items: center;\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232243761,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,6 +20,6 @@\n \n .nav{\n     display: flex;\n     align-items: center;\n-    \n+    text-justify: ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232252649,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,6 +20,6 @@\n \n .nav{\n     display: flex;\n     align-items: center;\n-    text-justify: ;\n+    justify-content: ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232258340,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,6 +20,6 @@\n \n .nav{\n     display: flex;\n     align-items: center;\n-    justify-content: ;\n+    justify-content: space-around;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232267038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,5 +21,6 @@\n .nav{\n     display: flex;\n     align-items: center;\n     justify-content: space-around;\n+    height: ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232274309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,6 +21,6 @@\n .nav{\n     display: flex;\n     align-items: center;\n     justify-content: space-around;\n-    height: ;\n+    height: 8vh;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232282578,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,5 +22,6 @@\n     display: flex;\n     align-items: center;\n     justify-content: space-around;\n     height: 8vh;\n+    background: ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232299803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,6 +22,6 @@\n     display: flex;\n     align-items: center;\n     justify-content: space-around;\n     height: 8vh;\n-    background: ;\n+    background: rgb();\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232306545,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,6 +22,6 @@\n     display: flex;\n     align-items: center;\n     justify-content: space-around;\n     height: 8vh;\n-    background: rgb();\n+    background: rgb(0, 48, );\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232314838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,6 +22,6 @@\n     display: flex;\n     align-items: center;\n     justify-content: space-around;\n     height: 8vh;\n-    background: rgb(0, 48, );\n+    background: rgb(0, 48, 126);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232457170,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,5 +23,6 @@\n     align-items: center;\n     justify-content: space-around;\n     height: 8vh;\n     background: rgb(0, 48, 126);\n-}\n\\ No newline at end of file\n+}\n+.nav__\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232465151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,5 +24,7 @@\n     justify-content: space-around;\n     height: 8vh;\n     background: rgb(0, 48, 126);\n }\n-.nav__\n\\ No newline at end of file\n+.nav__brand {\n+    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232477453,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,6 +25,6 @@\n     height: 8vh;\n     background: rgb(0, 48, 126);\n }\n .nav__brand {\n-    \n+    text-transform: ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232486511,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,6 +25,7 @@\n     height: 8vh;\n     background: rgb(0, 48, 126);\n }\n .nav__brand {\n-    text-transform: ;\n+    text-transform: uppercase;\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232492224,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,6 +26,6 @@\n     background: rgb(0, 48, 126);\n }\n .nav__brand {\n     text-transform: uppercase;\n-    \n+    font-weight: ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232497821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,6 +26,6 @@\n     background: rgb(0, 48, 126);\n }\n .nav__brand {\n     text-transform: uppercase;\n-    font-weight: ;\n+    font-weight: bold;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232608657,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,5 +27,6 @@\n }\n .nav__brand {\n     text-transform: uppercase;\n     font-weight: bold;\n-}\n\\ No newline at end of file\n+}\n+.nav__\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232622204,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,5 +28,7 @@\n .nav__brand {\n     text-transform: uppercase;\n     font-weight: bold;\n }\n-.nav__\n\\ No newline at end of file\n+.nav__menu{\n+    display: ;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232634708,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,6 +29,7 @@\n     text-transform: uppercase;\n     font-weight: bold;\n }\n .nav__menu{\n-    display: ;\n+    display: flex;\n+    align-self: ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232641221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,6 +30,6 @@\n     font-weight: bold;\n }\n .nav__menu{\n     display: flex;\n-    align-self: ;\n+    align-self: start;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232656870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,6 +30,6 @@\n     font-weight: bold;\n }\n .nav__menu{\n     display: flex;\n-    align-self: start;\n+    align-items: center;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232664376,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,5 +31,6 @@\n }\n .nav__menu{\n     display: flex;\n     align-items: center;\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232673788,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,6 +31,6 @@\n }\n .nav__menu{\n     display: flex;\n     align-items: center;\n-    \n+    justify-content: space-around;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232681272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,5 +32,6 @@\n .nav__menu{\n     display: flex;\n     align-items: center;\n     justify-content: space-around;\n+    gap: ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232692440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,6 +32,6 @@\n .nav__menu{\n     display: flex;\n     align-items: center;\n     justify-content: space-around;\n-    gap: ;\n+    gap: 3rem;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232737010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,5 +33,6 @@\n     display: flex;\n     align-items: center;\n     justify-content: space-around;\n     gap: 3rem;\n-}\n\\ No newline at end of file\n+}\n+.nav__\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232745505,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,5 +34,5 @@\n     align-items: center;\n     justify-content: space-around;\n     gap: 3rem;\n }\n-.nav__\n\\ No newline at end of file\n+.nav__toggler{}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232754540,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,5 +34,5 @@\n     align-items: center;\n     justify-content: space-around;\n     gap: 3rem;\n }\n-.nav__toggler{}\n\\ No newline at end of file\n+.nav__toggler div{}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232763762,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,5 +34,9 @@\n     align-items: center;\n     justify-content: space-around;\n     gap: 3rem;\n }\n-.nav__toggler div{}\n\\ No newline at end of file\n+.nav__toggler div{\n+\n+\n+    width: ;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657232780517,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,42 +1,40 @@\n *,\n *::after,\n *::before {\n-    margin: 0;\n-    box-sizing: border-box;\n+  margin: 0;\n+  box-sizing: border-box;\n }\n-html{\n-    font-size: 62.5%;\n+html {\n+  font-size: 62.5%;\n }\n-body{\n-    font-size: 1.6rem;\n+body {\n+  font-size: 1.6rem;\n }\n-li{\n-    list-style: none;\n+li {\n+  list-style: none;\n }\n-a{\n-    text-decoration: none;\n-    color: darkgrey;\n+a {\n+  text-decoration: none;\n+  color: darkgrey;\n }\n \n-.nav{\n-    display: flex;\n-    align-items: center;\n-    justify-content: space-around;\n-    height: 8vh;\n-    background: rgb(0, 48, 126);\n+.nav {\n+  display: flex;\n+  align-items: center;\n+  justify-content: space-around;\n+  height: 8vh;\n\\ No newline at end of file\n+  background: rgb(0, 48, 126);\n }\n .nav__brand {\n-    text-transform: uppercase;\n-    font-weight: bold;\n+  text-transform: uppercase;\n+  font-weight: bold;\n }\n-.nav__menu{\n-    display: flex;\n-    align-items: center;\n-    justify-content: space-around;\n-    gap: 3rem;\n+.nav__menu {\n+  display: flex;\n+  align-items: center;\n+  justify-content: space-around;\n+  gap: 3rem;\n }\n-.nav__toggler div{\n-\n-\n-    width: ;\n-}\n+.nav__toggler div {\n+  width: 3rem;\n+}\n"
+                },
+                {
+                    "date": 1657232788558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,5 +36,6 @@\n   gap: 3rem;\n }\n .nav__toggler div {\n   width: 3rem;\n-}\n\\ No newline at end of file\n+  height: ;\n+}\n"
+                },
+                {
+                    "date": 1657232795190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,6 +36,6 @@\n   gap: 3rem;\n }\n .nav__toggler div {\n   width: 3rem;\n-  height: ;\n+  height: 0.2rem;\n }\n"
+                },
+                {
+                    "date": 1657232809657,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,5 +37,6 @@\n }\n .nav__toggler div {\n   width: 3rem;\n   height: 0.2rem;\n+  \n }\n"
+                },
+                {
+                    "date": 1657232822706,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,6 +37,7 @@\n }\n .nav__toggler div {\n   width: 3rem;\n   height: 0.2rem;\n+  margin: 0.4rem;\n   \n }\n"
+                },
+                {
+                    "date": 1657232829548,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,6 +38,6 @@\n .nav__toggler div {\n   width: 3rem;\n   height: 0.2rem;\n   margin: 0.4rem;\n-  \n+background: ;\n }\n"
+                },
+                {
+                    "date": 1657232837407,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,6 +38,6 @@\n .nav__toggler div {\n   width: 3rem;\n   height: 0.2rem;\n   margin: 0.4rem;\n-background: ;\n+background: darkgray;\n }\n"
+                },
+                {
+                    "date": 1657232880955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n   justify-content: space-around;\n   gap: 3rem;\n }\n .nav__toggler div {\n-  width: 3rem;\n+  width: 2.5rem;\n   height: 0.2rem;\n   margin: 0.4rem;\n background: darkgray;\n }\n"
+                },
+                {
+                    "date": 1657232892643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,4 +40,5 @@\n   height: 0.2rem;\n   margin: 0.4rem;\n background: darkgray;\n }\n+\n"
+                },
+                {
+                    "date": 1657232900601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,5 +40,5 @@\n   height: 0.2rem;\n   margin: 0.4rem;\n background: darkgray;\n }\n-\n+.nav__toggler\n"
+                },
+                {
+                    "date": 1657232910851,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,5 +40,7 @@\n   height: 0.2rem;\n   margin: 0.4rem;\n background: darkgray;\n }\n-.nav__toggler\n+.nav__toggler{\n+    cursor: ;\n+}\n"
+                },
+                {
+                    "date": 1657232923824,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,6 +41,7 @@\n   margin: 0.4rem;\n background: darkgray;\n }\n .nav__toggler{\n-    cursor: ;\n+    cursor: pointer;\n+    display: ;\n }\n"
+                },
+                {
+                    "date": 1657232956088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,6 +42,7 @@\n background: darkgray;\n }\n .nav__toggler{\n     cursor: pointer;\n-    display: ;\n+    display: none;\n }\n+@\n"
+                },
+                {
+                    "date": 1657232963006,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,5 +44,5 @@\n .nav__toggler{\n     cursor: pointer;\n     display: none;\n }\n-@\n+@media screen\n"
+                },
+                {
+                    "date": 1657232969248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,5 +44,5 @@\n .nav__toggler{\n     cursor: pointer;\n     display: none;\n }\n-@media screen\n+@media screen and \n"
+                },
+                {
+                    "date": 1657232983943,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,5 +44,5 @@\n .nav__toggler{\n     cursor: pointer;\n     display: none;\n }\n-@media screen and \n+@media screen and (max-width)\n"
+                },
+                {
+                    "date": 1657232991533,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,5 +44,5 @@\n .nav__toggler{\n     cursor: pointer;\n     display: none;\n }\n-@media screen and (max-width)\n+@media screen and (max-width: 6)\n"
+                },
+                {
+                    "date": 1657233003484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,5 +44,5 @@\n .nav__toggler{\n     cursor: pointer;\n     display: none;\n }\n-@media screen and (max-width: 6)\n+@media screen and (max-width: 768px)\n"
+                },
+                {
+                    "date": 1657233012020,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,5 +44,7 @@\n .nav__toggler{\n     cursor: pointer;\n     display: none;\n }\n-@media screen and (max-width: 768px)\n+@media screen and (max-width: 768px){\n+    \n+}\n"
+                },
+                {
+                    "date": 1657233034332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,6 +45,6 @@\n     cursor: pointer;\n     display: none;\n }\n @media screen and (max-width: 768px){\n-    \n+    .nav__toggler\n }\n"
+                },
+                {
+                    "date": 1657233046261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,6 +45,8 @@\n     cursor: pointer;\n     display: none;\n }\n @media screen and (max-width: 768px){\n-    .nav__toggler\n+    .nav__toggler{\n+        display: ;\n+    }\n }\n"
+                },
+                {
+                    "date": 1657233224218,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,7 +46,8 @@\n     display: none;\n }\n @media screen and (max-width: 768px){\n     .nav__toggler{\n-        display: ;\n+        display: block;\n     }\n+    \n }\n"
+                },
+                {
+                    "date": 1657233230186,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,6 +48,6 @@\n @media screen and (max-width: 768px){\n     .nav__toggler{\n         display: block;\n     }\n-    \n+    .nav__menu\n }\n"
+                },
+                {
+                    "date": 1657233237256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,6 +48,8 @@\n @media screen and (max-width: 768px){\n     .nav__toggler{\n         display: block;\n     }\n-    .nav__menu\n+    .nav__menu{\n+        position: ;\n+    }\n }\n"
+                },
+                {
+                    "date": 1657233244313,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,7 +49,7 @@\n     .nav__toggler{\n         display: block;\n     }\n     .nav__menu{\n-        position: ;\n+        position: fixed;\n     }\n }\n"
+                },
+                {
+                    "date": 1657233251855,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,6 +50,7 @@\n         display: block;\n     }\n     .nav__menu{\n         position: fixed;\n+        top: ;\n     }\n }\n"
+                },
+                {
+                    "date": 1657233262161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,7 +50,7 @@\n         display: block;\n     }\n     .nav__menu{\n         position: fixed;\n-        top: ;\n+        top: 7vh;\n     }\n }\n"
+                },
+                {
+                    "date": 1657233272751,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,6 +51,7 @@\n     }\n     .nav__menu{\n         position: fixed;\n         top: 7vh;\n+        right: 0;\n     }\n }\n"
+                },
+                {
+                    "date": 1657233281616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,6 +52,7 @@\n     .nav__menu{\n         position: fixed;\n         top: 7vh;\n         right: 0;\n+        width: ;\n     }\n }\n"
+                },
+                {
+                    "date": 1657233290100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,7 +52,7 @@\n     .nav__menu{\n         position: fixed;\n         top: 7vh;\n         right: 0;\n-        width: ;\n+        width: 50%;\n     }\n }\n"
+                },
+                {
+                    "date": 1657233297542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,6 +53,7 @@\n         position: fixed;\n         top: 7vh;\n         right: 0;\n         width: 50%;\n+        height: ;\n     }\n }\n"
+                },
+                {
+                    "date": 1657233307054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,7 +53,7 @@\n         position: fixed;\n         top: 7vh;\n         right: 0;\n         width: 50%;\n-        height: ;\n+        height: 93vh;\n     }\n }\n"
+                },
+                {
+                    "date": 1657233318651,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,6 +54,7 @@\n         top: 7vh;\n         right: 0;\n         width: 50%;\n         height: 93vh;\n+        background: ;\n     }\n }\n"
+                },
+                {
+                    "date": 1657233358221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,7 +54,7 @@\n         top: 7vh;\n         right: 0;\n         width: 50%;\n         height: 93vh;\n-        background: ;\n+        background: rgb(0, 48, 126); \n     }\n }\n"
+                },
+                {
+                    "date": 1657233404894,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,6 +55,7 @@\n         right: 0;\n         width: 50%;\n         height: 93vh;\n         background: rgb(0, 48, 126); \n+        flex-direction: ;\n     }\n }\n"
+                },
+                {
+                    "date": 1657233424239,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,7 +55,8 @@\n         right: 0;\n         width: 50%;\n         height: 93vh;\n         background: rgb(0, 48, 126); \n-        flex-direction: ;\n+        flex-direction: column;\n+        transform: ;\n     }\n }\n"
+                },
+                {
+                    "date": 1657233438419,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,7 +56,7 @@\n         width: 50%;\n         height: 93vh;\n         background: rgb(0, 48, 126); \n         flex-direction: column;\n-        transform: ;\n+        transform: translateX(0);\n     }\n }\n"
+                },
+                {
+                    "date": 1657233447035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,7 +56,7 @@\n         width: 50%;\n         height: 93vh;\n         background: rgb(0, 48, 126); \n         flex-direction: column;\n-        transform: translateX(0);\n+        transform: translateX(100%);\n     }\n }\n"
+                },
+                {
+                    "date": 1657233493224,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,4 +59,7 @@\n         flex-direction: column;\n         transform: translateX(100%);\n     }\n }\n+/* Nav active class */\n+\n+\n"
+                },
+                {
+                    "date": 1657233503268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,5 +61,5 @@\n     }\n }\n /* Nav active class */\n \n-\n+.nav__active{}\n"
+                },
+                {
+                    "date": 1657233509851,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,5 +61,7 @@\n     }\n }\n /* Nav active class */\n \n-.nav__active{}\n+.nav__active{\n+    transform: ;\n+}\n"
+                },
+                {
+                    "date": 1657242170190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,6 +62,6 @@\n }\n /* Nav active class */\n \n .nav__active{\n-    transform: ;\n+    transform: translateX(0);\n }\n"
+                },
+                {
+                    "date": 1657243231755,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,8 +57,9 @@\n         height: 93vh;\n         background: rgb(0, 48, 126); \n         flex-direction: column;\n         transform: translateX(100%);\n+        transition: ;\n     }\n }\n /* Nav active class */\n \n"
+                },
+                {
+                    "date": 1657243242719,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,9 @@\n         height: 93vh;\n         background: rgb(0, 48, 126); \n         flex-direction: column;\n         transform: translateX(100%);\n-        transition: ;\n+        transition: 0.5s;\n     }\n }\n /* Nav active class */\n \n"
+                },
+                {
+                    "date": 1657243248780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,9 @@\n         height: 93vh;\n         background: rgb(0, 48, 126); \n         flex-direction: column;\n         transform: translateX(100%);\n-        transition: 0.5s;\n+        transition: 0.5s ease-in;\n     }\n }\n /* Nav active class */\n \n"
+                },
+                {
+                    "date": 1657243303577,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,31 +38,31 @@\n .nav__toggler div {\n   width: 2.5rem;\n   height: 0.2rem;\n   margin: 0.4rem;\n-background: darkgray;\n+  background: darkgray;\n }\n-.nav__toggler{\n-    cursor: pointer;\n-    display: none;\n+.nav__toggler {\n+  cursor: pointer;\n+  display: none;\n }\n-@media screen and (max-width: 768px){\n-    .nav__toggler{\n-        display: block;\n-    }\n-    .nav__menu{\n-        position: fixed;\n-        top: 7vh;\n-        right: 0;\n-        width: 50%;\n-        height: 93vh;\n-        background: rgb(0, 48, 126); \n-        flex-direction: column;\n-        transform: translateX(100%);\n-        transition: 0.5s ease-in;\n-    }\n+@media screen and (max-width: 768px) {\n+  .nav__toggler {\n+    display: block;\n+  }\n+  .nav__menu {\n+    position: fixed;\n+    top: 7vh;\n+    right: 0;\n+    width: 50%;\n+    height: 93vh;\n+    background: rgb(0, 48, 126);\n+    flex-direction: column;\n+    transform: translateX(100%);\n+    transition: 0.5s ease-in;\n+  }\n }\n /* Nav active class */\n \n-.nav__active{\n-    transform: translateX(0);\n+.nav__active {\n+  transform: translateX(0);\n }\n"
+                },
+                {
+                    "date": 1657243322020,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,4 +65,6 @@\n \n .nav__active {\n   transform: translateX(0);\n }\n+\n+.\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657243332744,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,5 +66,5 @@\n .nav__active {\n   transform: translateX(0);\n }\n \n-.\n\\ No newline at end of file\n+.toggle .line1\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657243344439,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,5 +66,7 @@\n .nav__active {\n   transform: translateX(0);\n }\n \n-.toggle .line1\n\\ No newline at end of file\n+.toggle .line1{}\n+.toggle .line1{}\n+.toggle .line1{}\n"
+                },
+                {
+                    "date": 1657243362576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,6 +67,6 @@\n   transform: translateX(0);\n }\n \n .toggle .line1{}\n-.toggle .line1{}\n-.toggle .line1{}\n+.toggle .line2{}\n+.toggle .line3{}\n"
+                },
+                {
+                    "date": 1657243368662,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,6 +67,8 @@\n   transform: translateX(0);\n }\n \n .toggle .line1{}\n-.toggle .line2{}\n+.toggle .line2{\n+    \n+}\n .toggle .line3{}\n"
+                },
+                {
+                    "date": 1657243382134,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,7 +68,7 @@\n }\n \n .toggle .line1{}\n .toggle .line2{\n-    \n+    opacity: 0;\n }\n .toggle .line3{}\n"
+                },
+                {
+                    "date": 1657243387301,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,11 @@\n .nav__active {\n   transform: translateX(0);\n }\n \n-.toggle .line1{}\n+.toggle .line1{\n+    \n+}\n .toggle .line2{\n     opacity: 0;\n }\n .toggle .line3{}\n"
+                },
+                {
+                    "date": 1657243404464,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n   transform: translateX(0);\n }\n \n .toggle .line1{\n-    \n+    transform: rotate();\n }\n .toggle .line2{\n     opacity: 0;\n }\n"
+                },
+                {
+                    "date": 1657243416357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n   transform: translateX(0);\n }\n \n .toggle .line1{\n-    transform: rotate();\n+    transform: rotate(-45deg);\n }\n .toggle .line2{\n     opacity: 0;\n }\n"
+                },
+                {
+                    "date": 1657243439758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n   transform: translateX(0);\n }\n \n .toggle .line1{\n-    transform: rotate(-45deg);\n+    transform: rotate(-45deg) translate();\n }\n .toggle .line2{\n     opacity: 0;\n }\n"
+                },
+                {
+                    "date": 1657243449162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n   transform: translateX(0);\n }\n \n .toggle .line1{\n-    transform: rotate(-45deg) translate();\n+    transform: rotate(-45deg) translate(-4pc);\n }\n .toggle .line2{\n     opacity: 0;\n }\n"
+                },
+                {
+                    "date": 1657243457829,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n   transform: translateX(0);\n }\n \n .toggle .line1{\n-    transform: rotate(-45deg) translate(-4pc);\n+    transform: rotate(-45deg) translate(-4px);\n }\n .toggle .line2{\n     opacity: 0;\n }\n"
+                },
+                {
+                    "date": 1657243472162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n   transform: translateX(0);\n }\n \n .toggle .line1{\n-    transform: rotate(-45deg) translate(-4px);\n+    transform: rotate(-45deg) translate(-4px, );\n }\n .toggle .line2{\n     opacity: 0;\n }\n"
+                },
+                {
+                    "date": 1657243500917,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,10 +67,12 @@\n   transform: translateX(0);\n }\n \n .toggle .line1{\n-    transform: rotate(-45deg) translate(-4px, );\n+    transform: rotate(-45deg) translate(-4px, 5px);\n }\n .toggle .line2{\n     opacity: 0;\n }\n-.toggle .line3{}\n+.toggle .line3{\n+    \n+}\n"
+                },
+                {
+                    "date": 1657243507138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,6 +73,7 @@\n .toggle .line2{\n     opacity: 0;\n }\n .toggle .line3{\n-    \n+    transform: rotate(-45deg) translate(-4px, 5px);\n+\n }\n"
+                },
+                {
+                    "date": 1657243518034,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,7 +73,7 @@\n .toggle .line2{\n     opacity: 0;\n }\n .toggle .line3{\n-    transform: rotate(-45deg) translate(-4px, 5px);\n+    transform: rotate(45deg) translate(-4px, 5px);\n \n }\n"
+                },
+                {
+                    "date": 1657243531835,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,7 +73,7 @@\n .toggle .line2{\n     opacity: 0;\n }\n .toggle .line3{\n-    transform: rotate(45deg) translate(-4px, 5px);\n+    transform: rotate(45deg) translate(-4px, -5px);\n \n }\n"
+                },
+                {
+                    "date": 1657244180796,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,8 +39,9 @@\n   width: 2.5rem;\n   height: 0.2rem;\n   margin: 0.4rem;\n   background: darkgray;\n+  \n }\n .nav__toggler {\n   cursor: pointer;\n   display: none;\n"
+                },
+                {
+                    "date": 1657244193996,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n   width: 2.5rem;\n   height: 0.2rem;\n   margin: 0.4rem;\n   background: darkgray;\n-  \n+  transition: ;\n }\n .nav__toggler {\n   cursor: pointer;\n   display: none;\n"
+                },
+                {
+                    "date": 1657244205743,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n   width: 2.5rem;\n   height: 0.2rem;\n   margin: 0.4rem;\n   background: darkgray;\n-  transition: ;\n+  transition: 0.4s ease-in;\n }\n .nav__toggler {\n   cursor: pointer;\n   display: none;\n"
+                }
+            ],
+            "date": 1657231911906,
+            "name": "Commit-0",
+            "content": "*,"
+        }
+    ]
+}

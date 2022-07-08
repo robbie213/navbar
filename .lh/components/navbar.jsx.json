@@ -1,0 +1,46 @@
+{
+    "sourceFile": "components/navbar.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1657230654737,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1657230662907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +0,0 @@\n-import { StyleSheet, Text, View } from \"react-native\";\n-import React from \"react\";\n-\n-export default function navbar() {\n-  return (\n-    <View>\n-      <Text>navbar</Text>\n-    </View>\n-  );\n-}\n-\n-const styles = StyleSheet.create({});\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657230678757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,7 @@\n+import React from \"react\";\n \n+const navbar = () => {\n+  return <div>navbar</div>;\n+};\n+\n+export default navbar;\n"
+                },
+                {
+                    "date": 1657230697923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from \"react\";\n \n-const navbar = () => {\n-  return <div>navbar</div>;\n+const Navbar = () => {\n+  return <div>Navbar</div>;\n };\n \n-export default navbar;\n+export default Navbar;\n"
+                },
+                {
+                    "date": 1657230724949,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from \"react\";\n \n-const Navbar = () => {\n+const Navbar = (props) => {\n   return <div>Navbar</div>;\n };\n \n export default Navbar;\n"
+                },
+                {
+                    "date": 1657230754298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n import React from \"react\";\n \n const Navbar = (props) => {\n-  return <div>Navbar</div>;\n+    return (\n+    <div></div>  \n+  ) \n };\n \n export default Navbar;\n"
+                },
+                {
+                    "date": 1657230766166,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,11 @@\n import React from \"react\";\n \n const Navbar = (props) => {\n     return (\n-    <div></div>  \n+        <div>\n+            <h2></h2>\n+    </div>  \n   ) \n };\n \n export default Navbar;\n"
+                },
+                {
+                    "date": 1657230775592,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n const Navbar = (props) => {\n     return (\n         <div>\n-            <h2></h2>\n+            <h2>Hello World</h2>\n     </div>  \n   ) \n };\n \n"
+                }
+            ],
+            "date": 1657230654737,
+            "name": "Commit-0",
+            "content": "import { StyleSheet, Text, View } from \"react-native\";\nimport React from \"react\";\n\nexport default function navbar() {\n  return (\n    <View>\n      <Text>navbar</Text>\n    </View>\n  );\n}\n\nconst styles = StyleSheet.create({});\n"
+        }
+    ]
+}
